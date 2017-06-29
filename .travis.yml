@@ -1,0 +1,33 @@
+language: python
+env:
+  global:
+    - secure: "g/jCDVHPoDrAoa5jI2PDbokHK1e1pKxWII2R81pANC+RrgVHOmF/Iqdfn8HiA+FybD8/W5ZjqG19O1bH1THD69SqI9JMvk/N3KoyRB4ws/jJJvdE3KuAuvTThR3POrvTYBtgpV7bjvOB8dpnNdT+cZ7CTOEeaHXa/HNo+BV+Q3DA8SEqId+XXyV9zneHNvUTWP1khSe/3NH5DU2NSHV78DqKHGrJ7a02f2lz/87xhrNhIjZbcBSzonL4/LIiT5URSo7YS93r5JCpz/Mk29tYHeJ35wK6DX0Vf01obGs0lPI4hgwUVN003de4Uc1Y7AVQB+SdhrUrr+DFhEmc/sx0x1KZOpPUd89ukB7RpDkRWR8qizsxe3reTMp0aVytoHISvzjvHTW8hj7wYEml+zkIp4Jp9xOBdwQlnkhybIzomDYye0aig7iEnJvXgcIW8G6FrOwDPv3N+zK9nTFdjWEctRNERuF8BncxHJEKeJ1b0yzrV/XndbjEh+S+3bU4Rx5UjF2Ou2QXs8je/y++u0fC8ldhAmWqtXwGnPUBgSgbL8+xSRiv34DV6PEWj9vhs5mTiAx70QHjLhqzrGFimslyL6CUubavBIp8iiF5BmUjjbQGBSagRu6W4wGG5SibtTcUtN9qISk84mNIREshLJrKu0thEMrV4QR4/exfcSi7X9o="
+
+matrix:
+  include:
+    - os: linux
+      python: 3.6
+      env:
+        - BUILD_DOCS=true
+
+before_install:
+  - URL="https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh";
+    wget "${URL}" -O miniconda.sh;
+    bash miniconda.sh -b -p $HOME/miniconda;
+    export PATH="$HOME/miniconda/bin:$PATH";
+    hash -r;
+    conda config --set always_yes yes --set changeps1 no;
+    conda config --add channels conda-forge;
+    conda create -n py36 python=3.6;
+    source activate py36;
+    conda update -q conda;
+    conda info -a;
+
+install:
+  - conda install doctr;
+
+script:
+  - |
+    set -e;
+    # put build script here;
+    doctr deploy --deploy-repo necx-org/necx-org.github.io .

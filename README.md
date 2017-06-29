@@ -24,13 +24,22 @@ A node may also contain:
 * audio files (or links to audio content)
 * worked example problems
 * reference to ABET a-k objectives
-* active learning activities including
+* active learning activities, including:
     * demonstrations
     * code completion exercises
     * think pair share questions
     * etc
 * additional assessment objects
 
+# Governance
+
+NECX is a community goverened effort according to a set of philosophies and
+policies to be fully developed in the near future.
+
+
 ## Repository Layout
 
-* Exchange: this is the repository of nodes
+* Exchange: this is the repository of nodes, one per directory
+* Tools: this is a growing set of tools that allow for node data to be
+      transformed into different forms
+* foo

@@ -1,0 +1,15 @@
+---
+uid: reactivity-swing
+title: Cycle reactivity swing
+prerequisites:
+  - reactivity
+  - burnup
+learning_objectives:
+  - Explain the concept of reactivity swing in reactors
+  - Calculate reactivity swing for multi-batch core loadings
+references:
+  - tsoulfanidis_fuel_cycle_2013
+abet_outcomes: [a, b, c]
+assessments: 
+...
+

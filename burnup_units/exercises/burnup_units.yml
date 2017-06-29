@@ -1,0 +1,8 @@
+---
+uid: burnup_units
+title: Recognize units for nuclear fuel burnup
+type: MultipleChoice
+options:
+  question: q.burnup_units.yml
+  answer: a.burnup_units.yml
+...

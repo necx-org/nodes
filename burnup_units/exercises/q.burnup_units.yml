@@ -1,0 +1,6 @@
+---
+text: Which of the following is valid unit to describe nuclear fuel burnup?
+  - value: $MW_{th}d/tonne$
+  - value: $W_{th}/g$
+  - value: $MW_{th}$
+...

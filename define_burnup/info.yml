@@ -1,0 +1,13 @@
+---
+uid: define_burnup
+title: Define nuclear fuel burnup
+prerequisites:
+  - reactor_thermal_power
+learning_objectives:
+  - define the concept of nuclear fuel burnup
+references:
+  - None
+assessments: 
+  - burnup_comparison
+...
+

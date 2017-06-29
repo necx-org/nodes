@@ -6,7 +6,7 @@ prerequisites:
 learning_objectives:
   - Calculate capacity factor.
 references:
-  - tsoulfanidis_nuclear_2013
+  - refs.bib
 abet_outcomes: [a]
 assessments: 
   - capacity-vs-availability

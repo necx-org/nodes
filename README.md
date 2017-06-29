@@ -5,10 +5,10 @@ nuclear engineering curriculum materials intentionally prepared for reuse,
 remixing and rejeuvination.
 
 This repository contains only the nodes and their content.  For more
-information, please see [the full documentation][http://necx-org.github.io/].
+information, please see (the full documentation)[http://necx-org.github.io/].
 
 Contributions by all are welcomed!  In addition to detailed guidance, you can
-also review this [brief guide][CONTRIBUTING.md].
+also review this (brief guide)[CONTRIBUTING.md].
 
 Materials are bundled in small units called "Nodes", each of which is required
 to contain:

@@ -1,5 +1,5 @@
 ---
-uid: capacity-factor
+uid: capacity_factor
 title: Capacity Factor
 prerequisites:
   - None
@@ -9,4 +9,4 @@ references:
   - refs.bib
 abet_outcomes: [a]
 assessments: 
-  - capacity-vs-availability
+  - capacity_vs_availability

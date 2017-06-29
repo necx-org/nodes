@@ -1,7 +1,7 @@
 ---
 uid: capacity-vs-availability
 title: Capacity Factor Vs. Availability Factor
-type: FileType
+type: Markdown
 options:
   question: q-capacity-vs-availability.md
   answer: a-capacity-vs-availability.md

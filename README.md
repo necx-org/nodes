@@ -31,7 +31,7 @@ A node may also contain:
     * etc
 * additional assessment objects
 
-# Governance
+## Governance
 
 NECX is a community goverened effort according to a set of philosophies and
 policies to be fully developed in the near future. ([#20][i20])

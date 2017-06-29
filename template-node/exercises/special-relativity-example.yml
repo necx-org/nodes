@@ -7,7 +7,7 @@ options:
   correct_answers: 
     - value: Einstein
       comment: Indeed, $E=mc^2$ is a famous equation emerging from 
-               Eintein's theory of special relativity.
+               Einstein's theory of special relativity.
   incorrect_answers: 
     - value: Wigner
       comment: Wigner was an important physicist, but his seminal

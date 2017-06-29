@@ -1,0 +1,5 @@
+uid: q-radioactive decay 
+title: Radioactive Decay
+type: Derivation
+options:
+  text: Derive the Poisson distribution from the binomial distribution.

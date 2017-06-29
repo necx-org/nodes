@@ -4,9 +4,9 @@ title: Special Relativity Example Problem
 type: MultipleChoice
 options:
   text: Who is known for $E=mc^2$?
-  correctAnswers: 
+  correct_answers: 
     - Einstein
-  incorrectAnswers: 
+  incorrect_answers: 
     - Wigner
     - Fermi
     - Heisenberg

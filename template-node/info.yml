@@ -3,12 +3,12 @@ uid: template-node
 title: Template Node
 prerequisites:
   - None
-learning objectives:
+learning_objectives:
   - Explain how a node should be constructed.
   - Provide an example of all possible node features.
 references:
   - None
-abet outcomes: [a, b, c]
+abet_outcomes: [a, b, c]
 assessments: 
   - special-relativity-example
 ...

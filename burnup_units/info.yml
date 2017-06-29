@@ -1,0 +1,11 @@
+---
+uid: burnup_units
+title: Units for nuclear fuel burnup
+prerequisites:
+  - define_burnup
+learning_objectives:
+  - Recognize and convert units for nuclear fuel burnup
+assessments: 
+  - burnup_units
+...
+

@@ -29,7 +29,7 @@ A node may also contain:
 * videos (or links to video content)
 * audio files (or links to audio content)
 * worked example problems
-* reference to ABET a-k objectives
+* reference to [ABET General Criterion 3. Student Outcomes - a-k objectives](http://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2016-2017/#outcomes)
 * active learning activities, including:
     * demonstrations
     * code completion exercises

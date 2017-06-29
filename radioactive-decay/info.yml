@@ -1,11 +1,11 @@
-uid: radioactive-decay 
-title: radioactive-decay
+uid: radioactive_decay 
+title: radioactive_decay
 prerequisites:
   - Undergraduate level probability and statistics 
 learning_objectives:
   - Understanding what radioactive decay is.
 references:
-  - Lamarsh, 2nd ed. Chapter 2
+  - None 
 abet_outcomes: None
 assessments: 
   - radioactive-decay.md

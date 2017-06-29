@@ -41,7 +41,7 @@ policies to be fully developed in the near future. ([#20][i20])
 
 * exchange: this is the repository of nodes, one per directory, named as the
   UID of the node
-* tools: this is a growing set of tools that allow for node data to be
+* tools: this is a growing set of tools that allow for node data to
   convert and render the node information in different forms ([#16][i16])
 * docs: documentation about preparing a node and using the tools
 * ci: configuration files and scripts for managing automated validation of nodes

@@ -3,8 +3,6 @@ uid: burnup_comparison
 title: Compare two burnups
 type: TrueFalse
 options:
-  text: Fuel that has operated at a specifc power level of $25 W_{th}/g$ for $100 d$ has a higher burnup that fuel that has operated at a specific power level of $15 W_{th}/g$ for $200 d$.
-  correct_answers: 
-    - value: False
-      comment: The integral of specif power over time for the first fuel is 2500 and for the second fuel is 3000.
+  question: q.burnup_comparison.yml
+  answer: a.burnup_comparison.yml
 ...

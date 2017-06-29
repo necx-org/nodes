@@ -1,0 +1,12 @@
+---
+uid: capacity-factor
+title: Capacity Factor
+prerequisites:
+  - None
+learning_objectives:
+  - Calculate capacity factor.
+references:
+  - tsoulfanidis_nuclear_2013
+abet_outcomes: [a]
+assessments: 
+  - capacity-vs-availability

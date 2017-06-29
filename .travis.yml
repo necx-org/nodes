@@ -30,4 +30,4 @@ script:
   - |
     set -e;
     # put build script here;
-    doctr deploy --deploy-repo ergs/twofcs.ergs.sc.edu .;
+    doctr deploy --deploy-repo necx-org/necx-org.github.io .

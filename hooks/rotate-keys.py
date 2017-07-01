@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 """Rotates keys in the keys.json file. If no file exists, it is populated."""
 import os
+import sys
 import time
 import json
 
 from cryptography.fernet import Fernet
 
-
-KEYS_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'keys.json')
+sys.path.insert(0, os.path.dirname(__file__))
+from tools import KEYS_FILE
 
 
 def make_new_entry():

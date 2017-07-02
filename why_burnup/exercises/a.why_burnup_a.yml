@@ -1,0 +1,12 @@
+---
+rubrik:
+  - must_have:
+      content: most fuel responses scale with fluence
+      points: 1
+  - must_have:
+      content: burnup scales with fluence
+      points: 1
+  - may_have:
+      content: examples of responses
+      points: 1
+...

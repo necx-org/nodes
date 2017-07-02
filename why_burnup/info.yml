@@ -1,0 +1,16 @@
+---
+uid: why_burnup
+title: Why is burnup the best indicator of fuel irradiation time
+prerequisites:
+  - define_burnup
+  - fuel_depletion
+  - fuel_structural_changes
+  - neutron_fluence
+learning_objectives:
+  - Explain why burnup is used instead of time as an indication for how long fuel has been irradiated.
+references:
+  - None
+assessments: 
+  - why_burnup_a
+...
+

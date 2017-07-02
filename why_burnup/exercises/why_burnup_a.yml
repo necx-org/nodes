@@ -3,6 +3,6 @@ uid: why_burnup_a
 title: Why is burnup better than time?
 type: ShortAnswer
 options:
-  question: q.why_burnup_a.yml
-  answer: a.why_burnup_a.yml
+  text: Why is burnup better than time?
+answer: a.why_burnup_a.yml
 ...

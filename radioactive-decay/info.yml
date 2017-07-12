@@ -9,6 +9,10 @@ references:
   - lamarsh.bib
 abet_outcomes: n/a
 assessments: 
-  - radioactive.decay.md
+  - counts.csv
+  - bateman_eq_full.yml
+  - bateman_eq_short.yml
+  - half_life.yml
+  - poisson_distribution.yml 
 ...
 

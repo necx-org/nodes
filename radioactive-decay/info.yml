@@ -4,7 +4,11 @@ title: radioactive decay
 prerequisites:
   - undergraduate statistics and probability
 learning_objectives:
-  - basic understanding of radioactivity
+  - Derive the Bateman equation
+  - Characterize the effects of decay for radioisotopes with different decay rates
+  - Apply the decay equation to identify an unknown radioisotope 
+  - Derive the poisson distribution and compute the statistical moments
+  - Interpret the meaning of the moments with respect to radioactive decay
 references:
   - lamarsh.bib
 abet_outcomes: n/a

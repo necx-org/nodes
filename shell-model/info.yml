@@ -6,9 +6,9 @@ prerequisites:
 learning_objectives: 
   - reproduce a shell model of an atom 
 references:
-  - none
+    - http://prezi.com/zmamtqeoiplg/?utm_campaign=share&utm_medium=copy&rc=ex0share
 abet_outcomes: n/a
 assessments: 
-  - tbd
+  - shell_model.yml 
 ...
 

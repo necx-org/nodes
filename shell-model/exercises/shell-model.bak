@@ -1,7 +1,0 @@
----
-uid: shell_model 
-title: shell model construction 
-type: GraphicalDisplay
-options:
-    text: Construct graphical representations of the shell model for plutonium-239 and xenon-135
-...

@@ -1,3 +1,16 @@
+---
+uid: shell_model
+title: atomic structure 
+prerequisites:
+  - undergraduate chemistry 
+learning_objectives: 
+  - reproduce a shell model of an atom 
+references:
+    - http://prezi.com/zmamtqeoiplg/?utm_campaign=share&utm_medium=copy&rc=ex0share
+abet_outcomes: n/a
+assessments: 
+  - shell_model.yml 
+...
 # Radioactive Decay
 ## Learning objective
 Reproduce a shell model of an atom

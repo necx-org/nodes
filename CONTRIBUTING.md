@@ -60,7 +60,7 @@ In any case, the process will follow the [contributor workflow.](#contributor-wo
 A major effort in this project is the development of nuclear engineering
 curriculum content in the form of 'nodes'. A node template appears in the
 repository and the review criteria for node contributions can be found
-in the [node review criteria document](./NODE-CRITERIA.md). 
+in the [node criteria section below](#node-criteria). 
 
 
 Start by copying the template node directory and work from there. Beyond that,
@@ -97,8 +97,31 @@ For all reviews, the reviewer is expected to:
 - Wait for the Continuous Integration service to show full test passage
 - When satisfied, click the green "Merge Pull Request" button
 
-For nodes, requirements can be found in the [node review criteria document](./NODE-CRITERIA.md).
+For nodes, requirements can be found in the [node criteria](#node-criteria) 
+section below.
 
+### Node Criteria
+
+The following describes the requirements of a valid node. There are two types 
+of valid nodes in the graph of nuclear engineering curriculum data, with the 
+following requirements.
+
+An internal node must have the following fields defined:
+* prerequisites
+* learning objective
+* assessment (at least one)
+
+A boundary node may NOT define any of the required elements of an internal
+node.
+
+### Prerequisites in pull requests
+
+All prerequisites that are referred to in a given pull request must be
+available in the graph once the pull request has been merged.  Therefore, all
+modifications to prerequisites - whether changing preexisting prerequisities
+or introducing new ones - must be either be already defined in the graph or
+introduced as part of the same pull request.  A new prerequisite may be
+introduced as a boundary node.
 
 ## Asking for Help
 

@@ -1,3 +1,24 @@
+---
+uid: radioactive_decay 
+title: radioactive decay 
+prerequisites:
+  - undergraduate statistics and probability
+learning_objectives:
+  - Derive the Bateman equation
+  - Characterize the effects of decay for radioisotopes with different decay rates
+  - Apply the decay equation to identify an unknown radioisotope 
+  - Derive the poisson distribution and compute the statistical moments
+  - Interpret the meaning of the moments with respect to radioactive decay
+references:
+  - lamarsh.bib
+abet_outcomes: n/a
+assessments: 
+  - counts.csv
+  - bateman_eq_full.yml
+  - bateman_eq_short.yml
+  - half_life.yml
+  - poisson_distribution.yml 
+...
 # Radioactive Decay
 ## Learning objective
 Derive the Bateman equation  

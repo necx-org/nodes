@@ -2,13 +2,13 @@
 
 Contributions by all are welcome. We are thrilled that you've found yourself here.
 
-[Types of Contributions](#types-of-contributions)
-[Issues](#issues)
-[Making a Change](#making-a-change)
-[Creating a Node](#creating-a-node)
-[Contributor Workflow](#contributor-workflow) 
-[Review Criteria](#review-criteria)
-[Asking for Help](#asking-for-help)
+- [Types of Contributions](#types-of-contributions)
+- [Issues](#issues)
+- [Making a Change](#making-a-change)
+- [Creating a Node](#creating-a-node)
+- [Contributor Workflow](#contributor-workflow) 
+- [Review Criteria](#review-criteria)
+- [Asking for Help](#asking-for-help)
 
 
 ## Types of Contributions

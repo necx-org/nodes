@@ -65,6 +65,18 @@ do I want my students to know or be able to do by the end of this course?”
 
 http://teaching.berkeley.edu/resources/design/course-level-learning-goalsoutcomes
 
+Each objective should be specific, actionable, and observable (meaning you can 
+somehow see it and record the event).
+I teach this quite often and explain it as focusing on the verbs and nouns, 
+verbs from Blooms and nouns from your discipline. Any student who takes your 
+class or learns this "thing" should know how to VERB NOUN and if they can VERB 
+NOUN then they know it. I.e. Student will be able to derive Fick's Law.
+Blooms verbs: 
+http://www.fresnostate.edu/academics/oie/documents/assesments/Blooms%20Level.pdf
+This is a good resource: 
+https://provost.illinois.edu/assessment/learning-outcomes-assessment/what-is-learning-outcomes-assessment/
+
+
 ## Recommended Node Elements
 
 In addition to the required node elements, many elements are recommended and

@@ -1,7 +1,7 @@
 # Style Guide
 ## Nodes
 ### Metadata
-Metadata is stored in an info.yml file in the parent directory. See the documentation for requirements. 
+Metadata is stored with yml notation as a header in the content.md See the documentation for requirements. 
 
 ### Learning objectives 
 Use an imperative sentence.

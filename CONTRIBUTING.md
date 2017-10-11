@@ -118,7 +118,7 @@ node.
 
 All prerequisites that are referred to in a given pull request must be
 available in the graph once the pull request has been merged.  Therefore, all
-modifications to prerequisites - whether changing preexisting prerequisities
+modifications to prerequisites - whether changing preexisting prerequisites
 or introducing new ones - must be either be already defined in the graph or
 introduced as part of the same pull request.  A new prerequisite may be
 introduced as a boundary node.

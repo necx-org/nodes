@@ -13,5 +13,3 @@ Syntax for the file should adhere to the following guidelines:
 
 #### Exercises
 
-___
-2017.07.11 Tue 12.43

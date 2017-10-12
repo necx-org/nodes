@@ -1,43 +1,32 @@
 ---
-title: POISSON DISTRIBUTION
-uid: poisson-distibution
+title: BATEMAN EQUATION
+uuid: bateman-equation
 prerequisites:
-  - undergraduate statistics and probability
+  - undergraduate differential equations
+  - undergraduate calculus
 learning_objectives:
   - Derive the Bateman equation
   - Characterize the effects of decay for radioisotopes with different decay rates
-  - Apply the decay equation to identify an unknown radioisotope 
-  - Derive the poisson distribution and compute the statistical moments
-  - Interpret the meaning of the moments with respect to radioactive decay
 references:
   - lamarsh.bib
 abet_outcomes: n/a
 assessments: 
-  - counts.csv
   - bateman-eq-full.yml
   - bateman-eq-short.yml
-  - half-life.yml
-  - poisson-distribution.yml 
 ...
-# Radioactive Decay
+# Bateman equation
 ## Learning objective
 Derive the Bateman equation  
 Characterize the effects of decay for radioisotopes with different decay rates  
-Apply the decay equation to identify an unknown radioisotope  
-Derive the poisson distribution and compute the statistical moments  
-Interpret the meaning of the moments with respect to radioactive decay  
-
-### Overview
-Radioactive decay refers generally to the distinegration of an unstable nucleus to a stable state. Radioactive decay is a stochastic process. Because we do not know the exact second that the nucleus will decay, we have to statistically model the decay process. Occurrences (decays) are randomly distributed in time. Therefore, we can use the Poisson process to characterize the mean time that a decay will occur.
-
-The Poisson distribution just describes the probability of a given number of events, in our case, decays, that occur within a fixed time interval: $P(n) = e^{-\mu} \cdot \frac{\mu^{n}}{n!}$, and $\mu = \lambda \Delta t$, where $\lambda$ is defined as the decay constant which is what we really are most concerned about in nuclear science and engineering problems.
-
-(We really do not use the Poisson distribution per se, but we need to define the distribution in order to obtain the decay constant.)
 
 ### Decay law
 Let's assume n(t) atoms at time (t) have decayed in the very small time interval dt.
 
-$$\lambda n(t)dt$$
+$\lambda n(t)dt$,
+
+where $\lambda$ is the decay constant.
+
+The decay constant is a characteristic time for the decay of a radionuclide based on the Poisson distribution. As such, it is unique to each radionuclide. 
 
 On average, the atom decays from t to t+dt as:
 
@@ -45,23 +34,27 @@ $$-dn(t)=\lambda n(t)dt$$
 
 If there are $n_0$ atoms at t = 0, then a solution to this differential equation for n(t) is readily obtained. 
 
-### Half-life
-Radioactive decay is typically characterized by half-life because each isotope decays with its specific rate. The half-life can be obtained using the decay law by substituting n(t) = $0.5n_0$ and solving for t. 
+$n(t)=n_0 e^{-\lambda t}$
 
-A radionuclide is considered negligible after 10 half-lives have elapsed. 
+### Decay chains
 
-![decay graph](img/decay.png)
+In many cases, whether in nature or for radionuclides produced as a result of reactor operation, a radionuclide will decay into another, and then another, etc., until a stable nuclide is produced. This is known as a decay chain. 
 
-The following example for Au-198 shows how the half-life can obtained.
+For a two member decay chain where A decays to B:
 
-![Au-198](img/au198.png)
+$\frac{dN_2}{dt}=\lambda_1 N_1-\lambda_2 N_2$
 
-If a semi-log plot is used, then the decay constant is just the slope of the line.
+The number of atoms of B increase due to the decay of A into B, but the number of atoms of B also decrease due to its own decay.
 
-![Au-198 log](img/au198_log.png)
+$N_2(t)=N_1^0 \frac{\lambda_1}{\lambda_2-\lambda_1}(e^{-\lambda_1 t} e^{-\lambda_2 t})+N_2^0 e^{-\lambda_2 t}$,
 
-A typical introductory laboratory exercise would be to take an unknown radioactive sample, record the counts at certain intervals, like every 30 seconds, and then plot the result. A fairly straightforward regression routine can be used to obtain the decay constant and then the half-life. 
-_
+if there are $N_0$ atoms present of the radionuclide at t = 0. 
+
+For a chain of radionuclides from 1, 2, 3, ... i-1, i, i+1, N:
+
+$\frac{dN_i}{dt}=\lambda_{i-1} N_{i-1}-\lambda_i N_i$
+
+This can be solved for any number of radionuclides in a given decay chain, where the solution is known as the Batemani equation.
+
 ### Additional Reading
 [OER Radioactive Decay Notes](https://courses.candelalearning.com/x84x9/chapter/radioactive-decay)
-

@@ -1,6 +1,6 @@
 ---
-uid: radioactive_decay 
-title: radioactive decay 
+title: POISSON DISTRIBUTION
+uid: poisson-distibution
 prerequisites:
   - undergraduate statistics and probability
 learning_objectives:
@@ -14,10 +14,10 @@ references:
 abet_outcomes: n/a
 assessments: 
   - counts.csv
-  - bateman_eq_full.yml
-  - bateman_eq_short.yml
-  - half_life.yml
-  - poisson_distribution.yml 
+  - bateman-eq-full.yml
+  - bateman-eq-short.yml
+  - half-life.yml
+  - poisson-distribution.yml 
 ...
 # Radioactive Decay
 ## Learning objective

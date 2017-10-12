@@ -87,7 +87,13 @@ the process will follow the [contributor workflow.](#contributor-workflow)
 - Engage in the ensuing discussion and iterations while the reviewers review
   your pull request.
 
-## Review Criteria
+## Asking for Help
+
+- The best way to ask for help is by creating an [issue](#issues). 
+- However, for more dynamic discussion, join us in our Slack workspace
+  [necx-org.slack.com](https://necx-org.slack.com).
+
+# Reviews
 
 For all reviews, the reviewer is expected to:
 
@@ -97,22 +103,44 @@ For all reviews, the reviewer is expected to:
 - Wait for the Continuous Integration service to show full test passage
 - When satisfied, click the green "Merge Pull Request" button
 
-For nodes, requirements can be found in the [node criteria](#node-criteria) 
-section below.
+For nodes, requirements can be found in the [node 
+criteria](#required-node-elements) section below.
 
-### Node Criteria
+## Required Node Elements
 
-The following describes the requirements of a valid node. There are two types 
+The following are required elements of a valid node. There are two types 
 of valid nodes in the graph of nuclear engineering curriculum data, with the 
 following requirements.
 
 An internal node must have the following fields defined:
+* title
+* uuid
 * prerequisites
-* learning objective
+* learning objective(s)
 * assessment (at least one)
 
 A boundary node may NOT define any of the required elements of an internal
 node.
+
+### Title requirements
+
+The title should be:
+
+- unique
+- descriptive
+- short
+- uppercase
+
+### UUID requirements
+
+The uuid should be:
+
+- unique
+- descriptive
+- short
+- lowercase
+- hyphenated where necessary
+
 
 ### Prerequisites in pull requests
 
@@ -123,8 +151,51 @@ or introducing new ones - must be either be already defined in the graph or
 introduced as part of the same pull request.  A new prerequisite may be
 introduced as a boundary node.
 
-## Asking for Help
+### Learning Objectives
 
-- The best way to ask for help is by creating an [issue](#issues). 
-- However, for more dynamic discussion, join us in our Slack workspace
-  [necx-org.slack.com](https://necx-org.slack.com).
+Each of the nodes should satisfy at least one learning objective.
+
+In order to develop learning goals, faculty should answer the question, “What
+do I want my students to know or be able to do by the end of this course?”
+
+
+Each objective should be specific, actionable, and observable (meaning you can 
+somehow see it and record the event).
+This can be done by focusing on the verbs and nouns: verbs from Blooms and nouns from your discipline. Any student who takes your 
+class or learns this "thing" should know how to VERB NOUN and if they can VERB 
+NOUN then they know it. For example:
+
+"Students will be able to derive Fick's Law."
+
+For relationships between Blooms Taxonomy and appropriate verbs, see [Blooms verbs](http://www.fresnostate.edu/academics/oie/documents/assesments/Blooms%20Level.pdf).
+
+Two good resources on learning outcomes appear here:
+
+- [learning outcomes assessment](https://provost.illinois.edu/assessment/learning-outcomes-assessment/what-is-learning-outcomes-assessment/)
+- [course-level learning outcomes](http://teaching.berkeley.edu/resources/design/course-level-learning-goalsoutcomes)
+
+## Recommended Node Elements
+
+In addition to the required node elements, many elements are recommended and
+should be incorporated into the content.md file as links, references, or
+otherwise.
+ 
+- Text, equations
+- Example code
+- References
+- External readings
+- Instructor guidance
+- Graphics
+- Videos
+- Audio files
+- Worked Examples
+- List of ABET a-k objectives supported
+- Active Learning activities
+- Demonstration
+- Code completion exercises
+- Think pair share questions
+- Homework problems
+- Exam problems
+- Quiz questions
+- Other learning outcomes
+

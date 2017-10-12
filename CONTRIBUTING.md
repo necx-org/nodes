@@ -70,7 +70,7 @@ the process will follow the [contributor workflow.](#contributor-workflow)
 
 - The terminology we use is based on the [Integrator Workflow](http://en.wikipedia.org/wiki/Integrator_workflow).
 - The first step is to create your own [fork](https://help.github.com/articles/fork-a-repo/) of the project.
-- Use a branching workflow similar to the one described in the [pro-git book](http://progit.org/book/ch3-4.html).
+- Use a branching workflow similar to the one described in the [pro-git book](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows).
 - Keep your own "master" branch in sync with the mainline repository's "master"
   branch. Specifically, do not push your own commits directly to your "master"
   branch.

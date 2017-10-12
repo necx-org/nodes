@@ -1,0 +1,15 @@
+---
+uid: bateman_eq_short 
+title: bateman equation short 
+type: MathematicalDerivation 
+options:
+    text: Derive the decay equation for a three member chain (A, B, C), where the third member is a stable nuclide. At what time is the activity of B maximized? Based on the three member decay chain, when will secular equilibrium be reached if $\lambda_A$ << $\lambda_B$ or if $\lambda_B$ << $\lambda_A$? How is secular equilibrium useful? See [Section 1.0](https://courses.candelalearning.com/x84x9/) in the OER for information on the Bateman equations.
+  correct_answer: 
+    - value: 
+      comment:
+  incorrect_answers: 
+    - value:
+      comment:
+    - value:
+      comment: 
+...

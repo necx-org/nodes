@@ -1,6 +1,6 @@
 ---
 title: POISSON DISTRIBUTION
-uid: poisson-distibution
+uuid: poisson-distibution
 prerequisites:
   - undergraduate statistics and probability
 learning_objectives:

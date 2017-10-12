@@ -1,6 +1,6 @@
 ---
-uid: poission_distribution 
-title: poisson distribution derivation 
+title: POISSON DISTRIBUTION DERIVATION 
+uuid: poission-distribution 
 type: MathematicalDerivation 
 options:
   text: The Poisson distribution describes radioactive decay. It is a specific form of the binomial distribution. Derive the Poisson distribution from the binomial distribution. Derive the first and second central moments of the Poisson distribution. Briefly comment on their significance. Please see [Section 2.0](https://courses.candelalearning.com/riskassessment/) in the OER for additional help with statistics.  

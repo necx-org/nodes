@@ -4,10 +4,10 @@ layout: node
 permalink: /nodes/template-node/
 title: Template Node
 prerequisites:
-  - None
+  - git
 learning_objectives:
-  - Explain how a node should be constructed.
-  - Provide an example of all possible node features.
+  - Define how a node should be constructed.
+  - Recognize all possible node features.
 references:
   - None
 abet_outcomes: [a, b, c]
@@ -17,16 +17,15 @@ assessments:
 
 # Introduction
 
-This node provides a template for all other nodes.  All
-possible node features are illustrated.
+This node provides a template for all other nodes. Eventually, all
+possible node features will be illustrated.
 
 ## Basic Structure
 
 The basic structure of a node consists of a folder with 
 the following:
 
-- content.md
-- info.yml
+- index.md
 - exercises directory
 - img directory
 

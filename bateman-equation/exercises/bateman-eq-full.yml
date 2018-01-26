@@ -1,0 +1,15 @@
+---
+title: BATEMAN EQUATION FULL
+type: MathematicalDerivation 
+uuid: bateman-eq-full
+options:
+    text: Derive the decay equation for an N member chain, where the Nth member is a stable nuclide. Plot using a semi-log axis the U-238 decay chain for $0 < t < 10^6 y$. Does Rn-222 reach secular equilibrium with U-238? Note any interesting observations and subsequent implications. 
+  correct_answer: 
+    - value: 
+      comment:
+  incorrect_answers: 
+    - value:
+      comment:
+    - value:
+      comment: 
+...

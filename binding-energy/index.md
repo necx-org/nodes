@@ -12,9 +12,7 @@ references:
   - lamarsh.bib
 abet_outcomes: n/a
 assessments:
-  -
-  -
-  -
+  - binding-energy.yml
 ...
 # Binding energy
 ## Learning objective
@@ -60,7 +58,16 @@ Note that N = A - Z, where A is the mass number of the isotope.
 
 Perform the calculation for mass defect in atomic mass units. Then, apply this helpful shortcut and multiplying the result by *931.5 MeV/amu* to obtain the value for the mass defect in terms of energy. 
 
+With some arithmetic, the binding energy is 1759 MeV. It is useful, however, to present the result in terms of binding energy per nucleon. For 239 nucleons in this isotope of plutonium, we obtain 7.40 MeV per nucleon. 
 
+Binding energy is used to compare atomic stability, reaction energy, and probability of fission or fusion. A common depiction is shown below.
 
+![Binding energy](img/binding.energy.jpg)
 
+Rotating the chart can be instructive. 
 
+![Binding energy flipped](img/binding.energy.rotated.jpg)
+
+Here, it can be seen that Fe-56 has the highest binding energy per nucleon. Isotopes will tend to a more tightly bound state. For light nuclei, this means that the fusion process is more likely, as they combine to form heavier nuclei.
+
+For heavy nuclei like U-235, the fission process will cause them to split and eject lighter nuclei to reach a more tightly bound state. 

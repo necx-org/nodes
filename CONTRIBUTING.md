@@ -169,7 +169,7 @@ node, named using a uuid-like directory name.
 ## Recommended Node Elements
 
 In addition to the required node elements, many elements are recommended and
-should be incorporated into the content.md file as links, references, or
+should be incorporated into the `index.md` file as links, references, or
 otherwise.
  
 - Text, equations

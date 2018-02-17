@@ -14,12 +14,13 @@ The fundamental unit of the Nuclear Engineering Curriculum Exchange is a
 The two node types are distinguished by which [metadata][#metadata] appears in
 the file.
 
-### Node Syntax
-
 Each node is in its own directory with a name identical to its uuid (see
-below).  That directory must contain a file called
-`index.md`.  All interior nodes must also contain a
-sub-directory called [`assessments`](assessment-formats.md).
+below).  That directory must contain a file called `index.md`.  All interior
+nodes must also contain a sub-directory called
+[`assessments`](assessment-formats.md).
+
+Each node may contain [other elements](#additional-elements), either as
+optional metadata or additional files linked from the `index.md` file.
 
 ## Syntax of `index.md` file
 
@@ -101,3 +102,24 @@ Syntax for the file should adhere to the following guidelines:
 3. Images should be stored in an `img` subdirectory within the parent node directory
 
 
+## Additional Elements
+
+In addition to the required node elements, many elements are recommended and
+should be incorporated into the `index.md` file as metadata, links,
+references, or otherwise.
+
+- Text, equations
+- Example code
+- References
+- External readings
+- Instructor guidance
+- Graphics
+- Videos
+- Audio files
+- Worked Examples
+- List of ABET a-k objectives supported
+- Active Learning activities
+- Demonstration
+- Code completion exercises
+- Think pair share questions
+- Other learning outcomes

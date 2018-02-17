@@ -115,12 +115,13 @@ following requirements.
 An internal node must have the following fields defined:
 * title
 * uuid
-* prerequisites
+* prerequisites: list of uuids
 * learning objective(s)
 * assessment (at least one)
 
-A boundary node may NOT define any of the required elements of an internal
-node.
+A boundary node should only define a `title` and `uuid` and may NOT define any
+of the other required elements of an internal node, but may include a brief
+description of what is within the scope of that node.
 
 ### Title requirements
 
@@ -142,7 +143,10 @@ The uuid should be:
 - hyphenated where necessary
 
 
-### Prerequisites in pull requests
+### Requirements for Prerequisite
+
+Prerequisites should be specified by providing a list of correctly formed
+UUIDs that refer to those prerequisites.
 
 All prerequisites that are referred to in a given pull request must be
 available in the graph once the pull request has been merged.  Therefore, all
@@ -158,7 +162,6 @@ Each of the nodes should satisfy at least one learning objective.
 In order to develop learning goals, faculty should answer the question, “What
 do I want my students to know or be able to do by the end of this course?”
 
-
 Each objective should be specific, actionable, and observable (meaning you can 
 somehow see it and record the event).
 This can be done by focusing on the verbs and nouns: verbs from Blooms and nouns from your discipline. Any student who takes your 
@@ -173,6 +176,15 @@ Two good resources on learning outcomes appear here:
 
 - [learning outcomes assessment](https://provost.illinois.edu/assessment/learning-outcomes-assessment/what-is-learning-outcomes-assessment/)
 - [course-level learning outcomes](http://teaching.berkeley.edu/resources/design/course-level-learning-goalsoutcomes)
+
+### Formatting Assessments
+
+Assessments may take many forms: markdown files, data, images, LaTeX
+documents, standard question format files, etc, and a single unit of
+assessment may include multiple related files.
+
+Each unit of assessment should be placed in a separated subdirectory of the
+node, named using a uuid-like directory name.
 
 ## Recommended Node Elements
 

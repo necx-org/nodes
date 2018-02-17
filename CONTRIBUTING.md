@@ -139,7 +139,7 @@ introduced as a boundary node.
 
 Each of the nodes should satisfy at least one learning objective.
 
-In order to develop learning goals, faculty should answer the question, “What
+In order to develop learning goals, contributors should answer the question, “What
 do I want my students to know or be able to do by the end of this course?”
 
 Each objective should be specific, actionable, and observable (meaning you can 

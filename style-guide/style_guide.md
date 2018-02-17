@@ -17,23 +17,24 @@ the file.
 ### Node Syntax
 
 Each node is in its own directory with a name identical to its uuid (see
-below).  That directory must contain a file called `index.md` .  All interior
-nodes must also contain a sub-directory called `assessments`.
+below).  That directory must contain a file called
+`index.md`.  All interior nodes must also contain a
+sub-directory called [`assessments`](assessment-formats.md).
 
-#### Syntax of `index.md` file
+## Syntax of `index.md` file
 
 The `index.md` file is a markdown file with YAML-formatted metadata at the
-top, delimited with `---`, followed by content to be rendered as part of the
-fundamental definition of the node.
+top, delimited with `---`, followed by content that serves as instructor notes
+for the node.
 
-##### Metadata
+### Metadata
 
 For a complete description of YAML formatting for metadata, see
 [the YAML specification](http://www.yaml.org/spec/1.2/spec.html).  This
 section defines specific metadata and its meaning.  The metadata components
 may appear in any order.
 
-**Required Metadata**
+#### Required Metadata
 
 Everynode is required to have the following metadata:
 
@@ -48,7 +49,7 @@ Everynode is required to have the following metadata:
 
   e.g. `uuid: necx-node-template`
 
-**Required Metadata for Internal Nodes**
+#### Required Metadata for Internal Nodes
 
 The following metadata are required for all internal nodes, and its presence
 identifies the node as an internal node rather than a boundary node.
@@ -78,8 +79,8 @@ prerequisites:
   is stored in a separate subdirectory within he `assessments` subdirectory.
   The name of that subdirectory should be a uid, but only unique within this
   node.  The entries in the metadata list are the uid subdirector names.
-
-  There must be at least one assessment.
+  There must be at least one assessment.  Individual assessments may take on
+  [many formats](assessement-formats.md).
 
   e.g.
 ```
@@ -89,13 +90,14 @@ assessments:
   - write-an-essay
 ```
 
-#### Content
-Content files for each node contain the lecture material for the subject matter. See the documentation for node requirements. The content file should be named 'content.md' and be a pure markdown file, so that it can be rendered into different formats. 
+### Content
+
+Markdown formatted content files for each node contain the lecture
+material/instructor notes for the subject matter.
 
 Syntax for the file should adhere to the following guidelines:
 1. No html tags
 2. Use latex tags for equations; i.e., $e^{-\lambda t}$ or $$e^{-\lambda t}$$
-3. Images should be stored in an img subdirectory within the parent node directory
+3. Images should be stored in an `img` subdirectory within the parent node directory
 
-#### Exercises
 

@@ -123,26 +123,6 @@ A boundary node should only define a `title` and `uuid` and may NOT define any
 of the other required elements of an internal node, but may include a brief
 description of what is within the scope of that node.
 
-### Title requirements
-
-The title should be:
-
-- unique
-- descriptive
-- short
-- uppercase
-
-### UUID requirements
-
-The uuid should be:
-
-- unique
-- descriptive
-- short
-- lowercase
-- hyphenated where necessary
-
-
 ### Requirements for Prerequisite
 
 Prerequisites should be specified by providing a list of correctly formed

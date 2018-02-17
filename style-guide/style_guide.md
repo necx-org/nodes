@@ -24,8 +24,8 @@ sub-directory called [`assessments`](assessment-formats.md).
 ## Syntax of `index.md` file
 
 The `index.md` file is a markdown file with YAML-formatted metadata at the
-top, delimited with `---`, followed by content that serves as instructor notes
-for the node.
+top, delimited with `---`, followed by [content](#content) that serves as
+instructor notes for the node.
 
 ### Metadata
 

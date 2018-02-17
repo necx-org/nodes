@@ -57,9 +57,32 @@ e.g.
 ```
 prerequisites:
     - other-content
-    - another-node`
+    - another-node
 ```
-    
+
+* _learning objective_: A phrase indicating the learning objective of the
+node.  Each node is expected to have a single learning objective.
+
+e.g.
+```
+learning objective:
+   construct a node with the correct syntax and contents
+```
+
+* _assessments_: A list of assessment activities that allow a student to
+  demonstrate their compitency with the learning objective.  Each assessment
+  is stored in a separate subdirectory within he `assessments` subdirectory.
+  The name of that subdirectory should be a uid, but only unique within this
+  node.  The entries in the metadata list are the uid subdirector names.
+
+e.g.
+```
+assessments:
+  - a-multiple-choice-question
+  - a-notebook-problem
+  - write-an-essay
+```
+
 #### Content
 Content files for each node contain the lecture material for the subject matter. See the documentation for node requirements. The content file should be named 'content.md' and be a pure markdown file, so that it can be rendered into different formats. 
 

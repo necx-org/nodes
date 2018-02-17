@@ -53,10 +53,13 @@ identifies the node as an internal node rather than a boundary node.
 * _prerequisites_: A list of node uuids that are considered prerequisite
   knowledge for this node.
 
-  e.g. `prerequisites:
-         - other-content
-         - another-node`
-         
+e.g.
+```
+prerequisites:
+    - other-content
+    - another-node`
+```
+    
 #### Content
 Content files for each node contain the lecture material for the subject matter. See the documentation for node requirements. The content file should be named 'content.md' and be a pure markdown file, so that it can be rendered into different formats. 
 

@@ -11,6 +11,9 @@ The fundamental unit of the Nuclear Engineering Curriculum Exchange is a
 * Interior nodes contain the bulk of the contained in the exchange
 * Boundary nodes define prerequisite material that is not included in the exchnage
 
+The two node types are distinguished by which metadata (see below) appears in
+the file.
+
 ### Node Syntax
 
 Each node is in its own directory with a name identical to its uuid (see
@@ -29,21 +32,31 @@ For a complete description of YAML formatting for metadata, see
 [the YAML specification](http://www.yaml.org/spec/1.2/spec.html).  This
 section defines specific metadata and its meaning.
 
-*Required Metadata*
+**Required Metadata**
 
 Everynode is required to have the following metadata:
 
 * _title_: A human readable title for the node
 
-  e.g. "A NECX Node Template"
+  e.g. `title: A NECX Node Template`
 
 * _uuid_ : A unique universal identifier formatted as words joined with
   hyphens, and often similar to the title
 
-  e.g. `necx-node-template`
+  e.g. `uuid: necx-node-template`
 
+**Required Metadata for Internal Nodes**
 
+The following metadata are required for all internal nodes, and its presence
+identifies the node as an internal node rather than a boundary node.
 
+* _prerequisites_: A list of node uuids that are considered prerequisite
+  knowledge for this node.
+
+  e.g. `prerequisites:
+         - other-content
+         - another-node`
+         
 #### Content
 Content files for each node contain the lecture material for the subject matter. See the documentation for node requirements. The content file should be named 'content.md' and be a pure markdown file, so that it can be rendered into different formats. 
 

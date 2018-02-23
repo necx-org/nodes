@@ -37,3 +37,23 @@ A node may also contain:
     * etc
 * additional assessment objects
 
+## Rendering nodes
+
+Experimental support for rendering nodes exists as part of the NEC-X website rendering repository, github.com/necx-org/necx-org.github.io.
+
+These instructions are a rough guide and your mileage may vary:
+
+1. clone your own copy of [the website repo](github.com/necx-org/necx-org.github.io)
+1. change to the top-level directory for that repo
+1. initialize the `_nodes` submodule with `git submodule init`
+1. update the `_nodes` submodule with `git submodule update`
+1. run a `jekyll serve` instance and look at http://localhost:4000/nodes/
+
+To review changes to nodes
+
+1. go to the `_nodes` directory
+1. checkout a branch that has the changes you are interested in reviewing
+  * you may want/need to add another git remote to fetch those changes
+1. restart the jekyll server and look at http://localhost:4000/nodes/
+
+

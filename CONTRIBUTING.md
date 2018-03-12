@@ -152,10 +152,12 @@ NOUN then they know it. For example:
 
 For relationships between Blooms Taxonomy and appropriate verbs, see [Blooms verbs](http://www.fresnostate.edu/academics/oie/documents/assesments/Blooms%20Level.pdf).
 
-Two good resources on learning outcomes appear here:
+Three good resources on learning outcomes appear here:
 
 - [learning outcomes assessment](https://provost.illinois.edu/assessment/learning-outcomes-assessment/what-is-learning-outcomes-assessment/)
 - [course-level learning outcomes](http://teaching.berkeley.edu/resources/design/course-level-learning-goalsoutcomes)
+
+[Bloom's taxonomy actino verbs](https://www.apu.edu/live_data/files/333/blooms_taxonomy_action_verbs.pdf)
 
 ### Formatting Assessments
 

@@ -37,14 +37,14 @@ may appear in any order.
 
 #### Required Metadata
 
-Everynode is required to have the following metadata:
+Every node is required to have the following metadata:
 
 * _title_: A human readable title for the node.  Titles should be unique,
   descriptive, short, and capitalized.
 
   e.g. `title: A NECX Node Template`
 
-* _uuid_ : A unique universal identifier formatted as words joined with
+* _uuid_ : A universally unique identifier formatted as words joined with
   hyphens, and often similar to the title.  UUIDs should be unique,
   descriptive, short, and lowercase.
 
@@ -78,10 +78,10 @@ prerequisites:
 * _assessments_: A list of assessment activities that allow a student to
   demonstrate their compitency with the learning objective.  Each assessment
   is stored in a separate subdirectory within he `assessments` subdirectory.
-  The name of that subdirectory should be a uid, but only unique within this
-  node.  The entries in the metadata list are the uid subdirector names.
-  There must be at least one assessment.  Individual assessments may take on
-  [many formats](assessement-formats.md).
+  The name of that subdirectory should be a unique identifier (uid), but only
+  unique within this node.  The entries in the metadata list are the uid
+  subdirector names.  There must be at least one assessment.  Individual
+  assessments may take on [many formats](assessement-formats.md).
 
   e.g.
 ```
@@ -109,6 +109,7 @@ should be incorporated into the `index.md` file as metadata, links,
 references, or otherwise.
 
 - Text, equations
+- Nomenclature
 - Example code
 - References
 - External readings

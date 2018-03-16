@@ -2,7 +2,7 @@
 title: ATOMIC STRUCTURE 
 uuid: shell-model
 prerequisites:
-  - undergraduate chemistry 
+  - none 
 learning_objectives: 
   - reproduce a shell model of an atom 
 references:

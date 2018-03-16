@@ -2,8 +2,7 @@
 title: BINDING ENERGY
 uuid: binding-energy
 prerequisites:
-  - undergraduate chemistry
-  - undergraduate physics
+  - shell-model 
 learning_objecives:
   - Determine binding energy per nucleon for isotopes
   - Compare binding energy per nucleon for different isotopes

@@ -2,8 +2,7 @@
 title: BATEMAN EQUATION
 uuid: bateman-equation
 prerequisites:
-  - undergraduate differential equations
-  - undergraduate calculus
+  - differential-equations
 learning_objectives:
   - Derive the Bateman equation
   - Characterize the effects of decay for radioisotopes with different decay rates

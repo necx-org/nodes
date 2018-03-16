@@ -115,34 +115,18 @@ following requirements.
 An internal node must have the following fields defined:
 * title
 * uuid
-* prerequisites
+* prerequisites: list of uuids
 * learning objective(s)
 * assessment (at least one)
 
-A boundary node may NOT define any of the required elements of an internal
-node.
+A boundary node should only define a `title` and `uuid` and may NOT define any
+of the other required elements of an internal node, but may include a brief
+description of what is within the scope of that node.
 
-### Title requirements
+### Requirements for Prerequisite
 
-The title should be:
-
-- unique
-- descriptive
-- short
-- uppercase
-
-### UUID requirements
-
-The uuid should be:
-
-- unique
-- descriptive
-- short
-- lowercase
-- hyphenated where necessary
-
-
-### Prerequisites in pull requests
+Prerequisites should be specified by providing a list of correctly formed
+UUIDs that refer to those prerequisites.
 
 All prerequisites that are referred to in a given pull request must be
 available in the graph once the pull request has been merged.  Therefore, all
@@ -155,9 +139,8 @@ introduced as a boundary node.
 
 Each of the nodes should satisfy at least one learning objective.
 
-In order to develop learning goals, faculty should answer the question, “What
+In order to develop learning goals, contributors should answer the question, “What
 do I want my students to know or be able to do by the end of this course?”
-
 
 Each objective should be specific, actionable, and observable (meaning you can 
 somehow see it and record the event).
@@ -169,15 +152,26 @@ NOUN then they know it. For example:
 
 For relationships between Blooms Taxonomy and appropriate verbs, see [Blooms verbs](http://www.fresnostate.edu/academics/oie/documents/assesments/Blooms%20Level.pdf).
 
-Two good resources on learning outcomes appear here:
+Three good resources on learning outcomes appear here:
 
 - [learning outcomes assessment](https://provost.illinois.edu/assessment/learning-outcomes-assessment/what-is-learning-outcomes-assessment/)
 - [course-level learning outcomes](http://teaching.berkeley.edu/resources/design/course-level-learning-goalsoutcomes)
 
+[Bloom's taxonomy actino verbs](https://www.apu.edu/live_data/files/333/blooms_taxonomy_action_verbs.pdf)
+
+### Formatting Assessments
+
+Assessments may take many forms: markdown files, data, images, LaTeX
+documents, standard question format files, etc, and a single unit of
+assessment may include multiple related files.
+
+Each unit of assessment should be placed in a separated subdirectory of the
+node, named using a uuid-like directory name.
+
 ## Recommended Node Elements
 
 In addition to the required node elements, many elements are recommended and
-should be incorporated into the content.md file as links, references, or
+should be incorporated into the `index.md` file as links, references, or
 otherwise.
  
 - Text, equations

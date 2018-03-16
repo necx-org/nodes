@@ -2,8 +2,8 @@
 title: HALF LIFE
 uuid: half-life
 prerequisites:
-  - bateman equation node
-  - poisson distribution node
+  - bateman-equation
+  - poisson-distribution
 learning_objectives:
   - Apply the decay equation to identify an unknown radioisotope 
 references:

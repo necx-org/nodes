@@ -2,7 +2,7 @@
 title: POISSON DISTRIBUTION
 uuid: poisson-distibution
 prerequisites:
-  - undergraduate statistics and probability
+  - statistics-probability
 learning_objectives:
   - Derive the poisson distribution
   - Compute the statistical moments

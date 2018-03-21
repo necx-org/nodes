@@ -1,17 +1,18 @@
 ---
-title: ATOMIC STRUCTURE 
+title: SHELL MODEL
 uuid: shell-model
 prerequisites:
-  - none 
+  - periodic-table
 learning_objectives: 
   - reproduce a shell model of an atom 
 references:
-    - http://prezi.com/zmamtqeoiplg/?utm_campaign=share&utm_medium=copy 
+    -
 abet_outcomes: n/a
+    abet_outcomes: n/a
 assessments: 
   - shell-model.yml 
 ...
-# Radioactive Decay
+# Shell model
 ## Learning objective
 Reproduce a shell model of an atom
 
@@ -23,8 +24,6 @@ A nucleus contains protons and neutrons. Protons carry a positive charge, and ne
 Each shell can only hold a fixed number of electrons, and each shell essentially represents a principal energy level. The electrons orbit around the nucleus. 
 
 (Quantum physics has shown this is more of an electron cloud, and there is a limit to how precise one can simultaneously know the position or momentum of a particle; aka the Heisenberg Uncertainty Principle. For now though, we are only concerned with the Bohr shell model.)
-
-Radioactive decay, therefore, is the spontaneous emission of different particles from an unstable (energy state) atom. This can be the emission of an electron, for example. The atom wants to achieve a stable state, but in the process may become charged due to the method of decay. Radioactivity then refers to the energy emitted as a result of decay.
 
 ### Example
 The calcuim atom contains 20 protons and 20 neutrons.

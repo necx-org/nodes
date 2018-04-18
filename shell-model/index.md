@@ -1,20 +1,17 @@
 ---
-title: SHELL MODEL
+layout: node
+title: Shell Modl
 uuid: shell-model
 prerequisites:
   - periodic-table
 learning_objectives: 
   - reproduce a shell model of an atom 
 references:
-    -
-abet_outcomes: n/a
-    abet_outcomes: n/a
+  - None
+abet_outcomes: None
 assessments: 
   - shell-model.yml 
 ...
-# Shell model
-## Learning objective
-Reproduce a shell model of an atom
 
 ### Overview
 The most straightforward concept of the atom is the shell model, first proposed by Niels Bohr.
@@ -28,11 +25,11 @@ Each shell can only hold a fixed number of electrons, and each shell essentially
 ### Example
 The calcuim atom contains 20 protons and 20 neutrons.
 
-![Ca shell atom](img/calcium.gif)
+![Ca shell atom](../img/calcium.gif)
 
-The uranium atom contains 92 protons, the number of neutrons will be different if the atom is $^{235}U$ or $^{238}U$.
+The uranium atom contains 92 protons, the number of neutrons will be different if the atom is $$^{235}U$$ or $$^{238}U$$.
 
-![U shell atom](img/uranium.jpg)
+![U shell atom](../img/uranium.jpg)
 
 Each electron shell is label by its principal quantum number; e.g., 1, 2, 3, 4, etc., with the lower number closer to the nucleus.
     

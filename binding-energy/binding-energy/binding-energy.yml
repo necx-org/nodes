@@ -1,0 +1,7 @@
+---
+title: BINDING ENERGY
+uuid: binding-energy
+type: Calculation
+options:
+  text: Find the binding energy per nucleon for U-233, U-235, Pu-241, and Cf-252.  Which radionuclide do you think is more likely to spontaneously fission and why?
+...

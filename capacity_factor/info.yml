@@ -2,12 +2,13 @@
 uid: capacity_factor
 title: Capacity Factor
 prerequisites:
-  - None
+  - Availability Factor
 learning_objectives:
-  - Calculate capacity factor.
+  - Understand capacity factor.
 references:
   - refs.bib
 abet_outcomes: [a]
 assessments: 
+  - capacity_factor_calulation
   - capacity_vs_availability
 ...

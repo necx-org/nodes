@@ -1,6 +1,6 @@
 ---
 layout: node
-title: Shell Modl
+title: Shell Model
 uuid: shell-model
 prerequisites:
   - periodic-table

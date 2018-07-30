@@ -1,3 +1,18 @@
+---
+uid: reactivity-swing
+layout: node
+permalink: /nodes/reactivity-swing/
+title: Reactivity swing in reactors
+prerequisites:
+  - Reactivtity
+learning_objectives:
+  - Understand the concept of reactivity swing
+references:
+  - None
+abet_outcomes: [a, b, c]
+assessments: 
+---
+
 # Introduction
 
 As nuclear fuel is burned in a reactor, the reactive worth of the fuel steadily decreases. The net change in reactivity of the fuel over a cycle is referred to as the *reactivity swing*, often specified as $\Delta \rho$.

@@ -5,6 +5,17 @@ import yaml
 
 
 def find_all_nodes(root_dir):
+    """
+    method to collect all directories in the `root_dir` and exclude a specific list
+
+    inputs
+    ------
+    root_dir : root directory to walk looking for nodes
+
+    output
+    ------
+    possible_nodes : set of directory names that could be nodes
+    """
 
     ignore_dir_list = {'template-node','style-guide','.git', 'bin'}
 
@@ -16,7 +27,22 @@ def find_all_nodes(root_dir):
     return possible_nodes
 
 def get_metadata(node_dir):
+    """
+    method to get the metadata dictionary from an individual node
 
+    input
+    -----
+    node_dir : string with adequately resolved directory name of a node
+
+    output
+    ------
+    dictionary of data contained in YAML header of node `index.md` file
+
+    OR
+
+    None if the file doesn't exist.
+    """
+    
     idx_md = os.path.join(node_dir,"index.md")
 
     try:

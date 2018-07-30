@@ -1,8 +1,8 @@
 ---
-uid: {{template-node}}
+uid: {{template}}
 layout: node
-permalink: /nodes/{{template-node}}/
-title: {{Template Node}}
+permalink: /nodes/{{template}}/
+title: {{template}}
 prerequisites:
   - TODO
 learning_objectives:

@@ -1,18 +1,17 @@
 ---
-uid: template-node
+uid: {{template-node}}
 layout: node
-permalink: /nodes/template-node/
-title: Template Node
+permalink: /nodes/{{template-node}}/
+title: {{Template Node}}
 prerequisites:
-  - git
+  - TODO
 learning_objectives:
-  - Define how a node should be constructed.
-  - Recognize all possible node features.
+  - TODO
 references:
-  - None
-abet_outcomes: [a, b, c]
-assessments: 
-  - special-relativity-example
+  - TODO
+abet_outcomes: [TODO]
+assessments:
+  - basic-example
 ---
 
 # Introduction
@@ -22,11 +21,9 @@ possible node features will be illustrated.
 
 ## Basic Structure
 
-The basic structure of a node consists of a folder with 
+The basic structure of a node consists of a folder with
 the following:
 
-- index.md
-- exercises directory
-- img directory
-
-
+- `index.md`
+- `exercises/` directory
+- `img/` directory

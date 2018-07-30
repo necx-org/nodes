@@ -57,6 +57,6 @@ To review changes to nodes
 1. go to the `_nodes` directory
 2. checkout a branch that has the changes you are interested in reviewing
   * you may want/need to add another git remote to fetch those changes
-3. If no changes, you may need to restart the jekyll server (kill with `ctrl-c` and restart with `jekyll serve`)  and look at http://localhost:4000/nodes/
+3. If you don't see your changes, you may need to restart the jekyll server (kill with `ctrl-c` and restart with `jekyll serve`)  and look at http://localhost:4000/nodes/
 
 

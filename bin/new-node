@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Generate a new minimum viable node from the basic node template given a UID.
+# Generate a new minimum viable node from the basic node template given a UUID.
 
 # Retrieve user-specified UUID.
 import argparse

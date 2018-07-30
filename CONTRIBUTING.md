@@ -161,7 +161,7 @@ Three good resources on learning outcomes appear here:
 - [learning outcomes assessment](https://provost.illinois.edu/assessment/learning-outcomes-assessment/what-is-learning-outcomes-assessment/)
 - [course-level learning outcomes](http://teaching.berkeley.edu/resources/design/course-level-learning-goalsoutcomes)
 
-[Bloom's taxonomy actino verbs](https://www.apu.edu/live_data/files/333/blooms_taxonomy_action_verbs.pdf)
+[Bloom's taxonomy action verbs](https://www.apu.edu/live_data/files/333/blooms_taxonomy_action_verbs.pdf)
 
 ### Formatting Assessments
 

@@ -39,12 +39,15 @@ A node may also contain:
 
 ## Rendering nodes
 
-Experimental support for rendering nodes exists as part of the NEC-X website rendering repository, github.com/necx-org/necx-org.github.io.
+Experimental support for rendering nodes exists as part of the NEC-X website rendering repository,
+[https://github.com/necx-org/necx-org.github.io](https://github.com/necx-org/necx-org.github.io).
 
 These instructions are a rough guide and your mileage may vary:
 
-1. clone your own copy of [the website repo](github.com/necx-org/necx-org.github.io)
-1. change to the top-level directory for that repo
+1. fork your own copy of [the website repo](https://github.com/necx-org/necx-org.github.io)
+1. clone it `git clone git@github.com:USERNAME/necx-org.github.io`
+1. change to the top-level directory for that repo `cd necx-org.github.io`
+1. add the upstream  repository as a remote `git remote add upstream git@github.com:necx-org/necx-org.github.io`
 1. initialize the `_nodes` submodule with `git submodule init`
 1. update the `_nodes` submodule with `git submodule update`
 1. run a `jekyll serve` instance and look at http://localhost:4000/nodes/
@@ -52,8 +55,8 @@ These instructions are a rough guide and your mileage may vary:
 To review changes to nodes
 
 1. go to the `_nodes` directory
-1. checkout a branch that has the changes you are interested in reviewing
+2. checkout a branch that has the changes you are interested in reviewing
   * you may want/need to add another git remote to fetch those changes
-1. restart the jekyll server and look at http://localhost:4000/nodes/
+3. If you don't see your changes, you may need to restart the jekyll server (kill with `ctrl-c` and restart with `jekyll serve`)  and look at http://localhost:4000/nodes/
 
 

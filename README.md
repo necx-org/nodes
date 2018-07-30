@@ -43,8 +43,9 @@ Experimental support for rendering nodes exists as part of the NEC-X website ren
 
 These instructions are a rough guide and your mileage may vary:
 
-1. clone your own copy of [the website repo](https://github.com/necx-org/necx-org.github.io)
+1. fork and clone your own copy of [the website repo](https://github.com/necx-org/necx-org.github.io)
 1. change to the top-level directory for that repo
+1. add the upstream as a remote `git remote add upstream git@github.com:necx-org/necx-org.github.io`
 1. initialize the `_nodes` submodule with `git submodule init`
 1. update the `_nodes` submodule with `git submodule update`
 1. run a `jekyll serve` instance and look at http://localhost:4000/nodes/

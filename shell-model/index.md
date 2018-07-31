@@ -10,8 +10,7 @@ references:
   - None
 abet_outcomes: None
 assessments: 
-  - shell-model.yml 
-
+  - construct-shell-model
 ...
 
 # Overview

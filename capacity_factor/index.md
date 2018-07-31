@@ -1,3 +1,18 @@
+---
+uid: capacity_factor
+title: Capacity Factor
+prerequisites:
+  - Availability Factor
+learning_objectives:
+  - Understand capacity factor.
+references:
+  - refs.bib
+abet_outcomes: [a]
+assessments:
+  - capacity_factor_calulation
+  - capacity_vs_availability
+...
+
 # Capacity Factor 
 
 The capacity factor is representative of the plant's tendency to acheive its rated power capacity.

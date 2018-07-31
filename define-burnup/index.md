@@ -10,7 +10,7 @@ learning_objectives:
 references:
   - None
 assessments: 
-  - burnup_comparison
+  - burnup-comparison
 
 ---
 

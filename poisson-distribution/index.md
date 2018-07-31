@@ -1,5 +1,6 @@
 ---
-title: POISSON DISTRIBUTION
+layout: node
+title: Poisson Distribution
 uuid: poisson-distibution
 prerequisites:
   - statistical-distributions
@@ -9,20 +10,21 @@ learning_objectives:
   - Compute the statistical moments
   - Interpret the meaning of the moments with respect to radioactive decay
 references:
-  - lamarsh.bib
+  - https://stattrek.com/probability-distributions/poisson.aspx
 abet_outcomes: n/a
 assessments: 
-  - poisson-distribution.yml 
+  - derive-poisson-distribution 
 ...
-# Poisson distribution 
-## Learning objective
-Derive the poisson distribution and compute the statistical moments  
-Interpret the meaning of the moments with respect to radioactive decay  
+# Overview
+A radioactive isotope decays with a unique, characteristic time. This is conceptualzied by a stochastic process. That is, the exact time any particular atom decays cannon be known. Therefore, a probablilty distribution is used to describe the behavior of radioactive decay.
 
-### Radioactive decay 
-Radioactive decay refers generally to the distinegration of an unstable nucleus to a stable state. Radioactive decay is a stochastic process. Because we do not know the exact instant in time that the nucleus will decay, we have to statistically model the decay process. Occurrences (decays) are randomly distributed in time. Therefore, we can use the Poisson process to characterize the mean time that a decay will occur.
+## Poisson distribution
+The statistical distribution applied to describe decay is the poisson distribution. If the average number of decays in a period of time is defined as 
 
-The Poisson distribution just describes the probability of a given number of events, in our case, decays, that occur within a fixed time interval: $P(n) = e^{-\mu} \cdot \frac{\mu^{n}}{n!}$, and $\mu = \lambda \Delta t$, where $\lambda$ is defined as the decay constant, which is covered in a related node.
+$$\mu \equiv \lambda \Delta t$$
 
-### Additional Reading
-[OER Radioactive Decay Notes](https://courses.candelalearning.com/x84x9/chapter/radioactive-decay)
+where $\lambda$ is defined as the decay constant, specific to the radioactive isotope. 
+
+Then the probablity of an exact number of $n$ decays that will occur in $\Delta t$ is
+
+$$P(n) = e^{-\mu} \cdot \frac{\mu^{n}}{n!}$$

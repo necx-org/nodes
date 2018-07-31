@@ -151,13 +151,13 @@ if __name__ == "__main__":
 
     valid_uuid_set, invalid_uuid_set = find_all_nodes_with_valid_uuid(args.root)
 
-    check_nodes = set()
+    check_nodes = set(valid_uuid_set)
+    
     if args.node:
-        check_nodes = set(args.node)
-    else:
-        check_nodes = set(valid_uuid_set)
+        check_nodes = check_nodes.intersection(args.node)
 
     print("checking nodes: ", check_nodes)
+
     missing_prereqs = check_all_deps(args.root, check_nodes, valid_uuid_set)
     
     check_nodes = check_nodes.difference(missing_prereqs)

@@ -44,7 +44,7 @@ constant power, the burnup increases linearly, with a slope proportional to
 the power.  During the period of zero power, the burnup doesn't change.  The
 final plot represents some quantity, f, that depends on the neutron fluence.
 It shows the same shape as the burnup plot.  All units are arbitrary.
-<p>
+</p>
 
 ![Figure 2](../img/fuel_response_v_burnup.svg){:height="400px" }
 

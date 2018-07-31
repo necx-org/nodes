@@ -37,7 +37,7 @@ most strongly on the neutron fluence that the fuel has experienced.
 
 ![Figure 1](../img/fuel_response_v_time.svg){:style="float:left;height:400px;"}
 
-Figure 1 shows a simple power history for a piece
+<p>Figure 1 shows a simple power history for a piece
 of nuclear fuel as a function of time.  There are three different power levels
 including a period in which there is no power.  During each of the periods of
 constant power, the burnup increases linearly, with a slope proportional to

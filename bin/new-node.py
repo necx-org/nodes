@@ -15,8 +15,8 @@ uuid = args.uuid
 print('Creating new node directory...',end='')
 import os
 dir_path = os.path.dirname(os.path.realpath(__file__))
-src_path = os.path.join(dir_path,'..','template-node')
-tgt_path = os.path.join(dir_path,'..','_nodes',uuid)
+src_path = os.path.join(dir_path,'..','content/template-node')
+tgt_path = os.path.join(dir_path,'..','content',uuid)
 import shutil
 shutil.copytree(src_path,tgt_path)
 print('done.')

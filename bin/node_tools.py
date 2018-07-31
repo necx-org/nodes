@@ -17,7 +17,7 @@ def find_all_nodes(root_dir):
     possible_nodes : set of directory names that could be nodes
     """
 
-    ignore_dir_list = {'template-node','style-guide','.git', 'bin'}
+    ignore_dir_list = {'template-node','template-node-full'}
 
     possible_nodes = {name for name in os.listdir(root_dir)
                       if os.path.isdir(os.path.join(root_dir,name))}

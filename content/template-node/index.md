@@ -1,7 +1,6 @@
 ---
 uuid: {{uuid}}
 layout: node
-permalink: /nodes/{{uuid}}/
 title: {{uuid}}
 prerequisites:
   - TODO

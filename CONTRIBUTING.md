@@ -135,6 +135,10 @@ or introducing new ones - must be either be already defined in the graph or
 introduced as part of the same pull request.  A new prerequisite may be
 introduced as a boundary node.
 
+A prerequisite should be as specific as possible, though very general boundary 
+nodes may be proposed as needed and will be addressed on a case-by-case basis 
+during the review process until a community norm is established.
+
 ### Learning Objectives
 
 Each of the nodes should satisfy at least one learning objective.
@@ -157,7 +161,7 @@ Three good resources on learning outcomes appear here:
 - [learning outcomes assessment](https://provost.illinois.edu/assessment/learning-outcomes-assessment/what-is-learning-outcomes-assessment/)
 - [course-level learning outcomes](http://teaching.berkeley.edu/resources/design/course-level-learning-goalsoutcomes)
 
-[Bloom's taxonomy actino verbs](https://www.apu.edu/live_data/files/333/blooms_taxonomy_action_verbs.pdf)
+[Bloom's taxonomy action verbs](https://www.apu.edu/live_data/files/333/blooms_taxonomy_action_verbs.pdf)
 
 ### Formatting Assessments
 

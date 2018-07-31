@@ -101,7 +101,7 @@ if __name__ == "__main__":
     parents = {}
     for node in valid_uuid_set:
         print(node)
-        chilrden[node] = node_tools.get_metadata(os.path.join(root_dir,node))['prerequisites']
+        children[node] = node_tools.get_metadata(os.path.join(args.root,node))['prerequisites']
         print(children[node])
         for child in children[node]:
             parents.setdefault(child,[]).append(node)

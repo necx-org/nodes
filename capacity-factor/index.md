@@ -1,12 +1,11 @@
 ---
 layout: node
-permalink: /nodes/capacity-factor
-uid: capacity_factor
+uuid: capacity-factor
 title: Capacity Factor
 prerequisites:
-  - Availability Factor
+  - availability-factor
 learning_objectives:
-  - Understand capacity factor.
+  - Describe capacity factor.
 references:
   - refs.bib
 abet_outcomes: [a]

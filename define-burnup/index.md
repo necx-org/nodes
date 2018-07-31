@@ -1,3 +1,19 @@
+---
+uuid: define-burnup
+layout: node
+permalink: /nodes/define-burnup/
+title: Define nuclear fuel burnup
+prerequisites:
+  - specific-thermal-power
+learning_objectives:
+  - define the concept of nuclear fuel burnup
+references:
+  - None
+assessments: 
+  - burnup_comparison
+...
+
+
 # Definition of nuclear fuel burnup
 
 Burnup is generally considered the best measure of the amount of time that

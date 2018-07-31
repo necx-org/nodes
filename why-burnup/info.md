@@ -1,7 +1,7 @@
 ---
 layout: node
 permalink: /nodes/why-burnup/
-uid: why-burnup
+uuid: why-burnup
 title: Why is burnup the best indicator of fuel irradiation time
 prerequisites:
   - define-burnup

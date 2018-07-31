@@ -135,7 +135,7 @@ def parse_input():
 
     parser.add_argument("-r", "--root", type=str, default=os.getcwd(),
                         help="root directory for node list")
-    parser.add_argument("-n", "--node", type=str,
+    parser.add_argument("-n", "--node", nargs='+', type=str,
                         help="node to test if not all nodes")
     parser.add_argument("-d", "--skip_deps", action='store_false', dest='check_deps',
                         default=True, help="avoid checking dependencies")
@@ -151,19 +151,20 @@ if __name__ == "__main__":
 
     valid_uuid_set, invalid_uuid_set = find_all_nodes_with_valid_uuid(args.root)
 
-    check_nodes = set()
+    check_nodes = set(valid_uuid_set)
+    
     if args.node:
-        check_nodes.add(args.node)
-    else:
-        check_nodes = set(valid_uuid_set)
+        check_nodes = check_nodes.intersection(args.node)
+
+    print("checking nodes: ", check_nodes)
 
     missing_prereqs = check_all_deps(args.root, check_nodes, valid_uuid_set)
     
     check_nodes = check_nodes.difference(missing_prereqs)
             
-    print("valid nodes: ", valid_uuid_set)
-    print("invalid nodes: ", invalid_uuid_set)
-    print("tested nodes with deps: ", check_nodes if check_nodes else None)
+    #print("valid nodes: ", valid_uuid_set)
+    #print("invalid nodes: ", invalid_uuid_set)
+    print("tested nodes with valid deps: ", check_nodes if check_nodes else None)
     print("tested nodes with missing deps: ", missing_prereqs)
 
     

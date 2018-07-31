@@ -98,12 +98,20 @@ if __name__ == "__main__":
     valid_uuid_set, invalid_uuid_set = find_all_nodes_with_valid_uuid(args.root)
 
     print("digraph necx {")
+    print('bgcolor="#bbbbbb"')
+    print('node [ color="#000000" ]')
+    print('edge [ color="#009900" ]')
     
+
+    nodelist = ""
+    edgelist = ""
     for node in valid_uuid_set:
         children = node_tools.get_metadata(os.path.join(args.root,node))['prerequisites']
         for child in children:
-            print("{0} -> {1};".format(node,child))
-    print("}")
+            if child not in valid_uuid_set:
+                nodelist += '"{0}" [ color="#aa0000" style=filled fontcolor="#ffffff" ]\n'.format(child)
+            edgelist += '"{0}" -> "{1}" ;\n'.format(child,node)
+    print(nodelist,edgelist,"}")
     
             
 

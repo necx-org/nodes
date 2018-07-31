@@ -3,10 +3,10 @@ layout: exercise
 uid: basic-example
 title: Basic MC Example Problem
 type: MultipleChoice
-text: Who is known for $E=mc^2$?
+text: Who is known for \(E=mc^2\)?
 options:
   - value: Einstein
-    comment: Indeed, $E=mc^2$ is a famous equation emerging from
+    comment: Indeed, \(E=mc^2\) is a famous equation emerging from
              Einstein's theory of special relativity
     correct: true
   - value: Wigner

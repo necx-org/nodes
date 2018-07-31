@@ -1,4 +1,6 @@
 ---
+layout: node
+permalink: /nodes/capacity-factor
 uid: capacity_factor
 title: Capacity Factor
 prerequisites:
@@ -9,8 +11,8 @@ references:
   - refs.bib
 abet_outcomes: [a]
 assessments:
-  - capacity_factor_calulation
-  - capacity_vs_availability
+  - capacity-factor-calulation
+  - capacity-vs-availability
 ...
 
 # Capacity Factor 

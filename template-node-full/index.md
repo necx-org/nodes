@@ -13,6 +13,7 @@ references:
 abet_outcomes: [a, b, c]
 assessments: 
   - special-relativity-example
+  - basic-example
 ---
 
 # Introduction

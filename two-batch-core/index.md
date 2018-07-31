@@ -1,7 +1,6 @@
 ---
 uuid: two-batch-core
 layout: node
-permalink: /nodes/two-batch-core
 title: Multi-batch core loading - the two-batch core
 prerequisites:
   - define-reactivity

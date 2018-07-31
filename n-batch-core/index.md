@@ -1,7 +1,6 @@
 ---
 uuid: n-batch-core
 layout: node
-permalink: /nodes/n-batch-core
 title: Multi-batch core loading - the n-batch core
 prerequisites:
   - define-reactivity

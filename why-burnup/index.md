@@ -45,7 +45,7 @@ the power.  During the period of zero power, the burnup doesn't change.  The
 final plot represents some quantity, f, that depends on the neutron fluence.
 It shows the same shape as the burnup plot.  All units are arbitrary.
 
-![Figure 2](../img/fuel_response_v_burnup.svg)
+![Figure 2](../img/fuel_response_v_burnup.svg){:height="36px" width="36px"}
 
 Figure 2 shows the same power history as a
 function of the burnup.  The period with zero power does not appear in these

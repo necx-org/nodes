@@ -1,7 +1,6 @@
 ---
-uid: template-node
+uuid: template-node
 layout: node
-permalink: /nodes/template-node/
 title: Template Node
 prerequisites:
   - git
@@ -13,6 +12,7 @@ references:
 abet_outcomes: [a, b, c]
 assessments: 
   - special-relativity-example
+  - basic-example
 ---
 
 # Introduction

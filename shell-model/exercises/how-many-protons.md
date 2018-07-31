@@ -3,7 +3,7 @@ layout: exercise
 uid: how-many-protons
 title: How Many 
 type: MultipleChoice
-text: How many protons are in $^{239}Pu$?
+text: How many protons are in $$^{239}Pu$$?
 options:
   - value: 92
     comment: Nope, that's uranium.

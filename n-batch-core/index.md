@@ -1,10 +1,10 @@
 ---
-uid: n-batch-cores
+uuid: n-batch-core
 layout: node
-permalink: /nodes/n-batch-cores
+permalink: /nodes/n-batch-core
 title: Multi-batch core loading - the n-batch core
 prerequisites:
-  - reactivity
+  - define-reactivity
   - define-burnup
 learning_objectives:
   - Calculate the reactivity swing for single-batch versus multi-batch cores

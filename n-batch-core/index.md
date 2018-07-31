@@ -10,7 +10,7 @@ learning_objectives:
   - Calculate the reactivity swing for single-batch versus multi-batch cores
   - Communicate how gains in discharge burnup are achieved using multi-batch cores
 references:
-  - None
+  - tsoulfanidis_fuel_cycle_2013
 abet_outcomes: []
 assessments: 
  - TBD

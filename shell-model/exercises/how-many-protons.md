@@ -1,6 +1,6 @@
 ---
 layout: exercise
-uid: how-many-protons
+uuid: how-many-protons
 title: How Many Protons 
 type: MultipleChoice
 text: 'How many protons are in \(^{239}Pu\)?'

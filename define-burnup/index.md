@@ -11,7 +11,8 @@ references:
   - None
 assessments: 
   - burnup_comparison
-...
+
+---
 
 
 # Definition of nuclear fuel burnup

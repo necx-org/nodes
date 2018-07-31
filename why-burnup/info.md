@@ -13,7 +13,7 @@ learning_objectives:
 references:
   - None
 assessments: 
-  - why_burnup_a
+  - why-burnup-a
 
 ---
 

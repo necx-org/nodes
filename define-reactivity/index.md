@@ -1,6 +1,6 @@
 ---
-uuid: define-reactivity
 layout: node
+uuid: define-reactivity
 permalink: /nodes/define-reactivity/
 title: Reactivity
 prerequisites:

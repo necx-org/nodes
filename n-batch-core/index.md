@@ -1,6 +1,6 @@
 ---
 layout: node
-uuid: n-batch-cores
+uuid: n-batch-core
 title: Multi-batch core loading - the n-batch core
 prerequisites:
   - define-reactivity

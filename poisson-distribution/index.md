@@ -23,8 +23,6 @@ The statistical distribution applied to describe decay is the Poisson distributi
 
 $$\mu \equiv \lambda \Delta t$$
 
-where $\lambda$ is defined as the decay constant, specific to the radioactive isotope. 
-
-Then the probablity of an exact number of $n$ decays that will occur in $\Delta t$ is
+where $\lambda$ is defined as the decay constant, specific to the radioactive isotope, then the probablity of an exact number of $n$ decays that will occur in $\Delta t$ is:
 
 $$P(n) = e^{-\mu} \cdot \frac{\mu^{n}}{n!}$$

@@ -5,7 +5,7 @@ title: Capacity Factor
 prerequisites:
   - availability-factor
 learning_objectives:
-  - Describe capacity factor.
+  - Calculate capacity factor based on historical operation.
 references:
   - refs.bib
 abet_outcomes: [a]

@@ -35,7 +35,9 @@ most strongly on the neutron fluence that the fuel has experienced.
 
 # Relationship between burnup and time
 
-Figure 1 [fuel_response_v_time.svg] shows a simple power history for a piece
+![Figure 1](../img/fuel_response_v_time.svg)
+
+Figure 1 shows a simple power history for a piece
 of nuclear fuel as a function of time.  There are three different power levels
 including a period in which there is no power.  During each of the periods of
 constant power, the burnup increases linearly, with a slope proportional to
@@ -43,7 +45,9 @@ the power.  During the period of zero power, the burnup doesn't change.  The
 final plot represents some quantity, f, that depends on the neutron fluence.
 It shows the same shape as the burnup plot.  All units are arbitrary.
 
-Figure 2 [fuel_response_v_burnup.svg] shows the same power history as a
+![Figure 2](../img/fuel_response_v_burnup.svg)
+
+Figure 2 shows the same power history as a
 function of the burnup.  The period with zero power does not appear in these
 plots because it is reduced to a single point on the burnup domain.
 Obviously, the slope of burnup vs burnup is constant (1).  Similarly, the

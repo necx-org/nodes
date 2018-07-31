@@ -81,14 +81,17 @@ def parse_input():
 
     parser.add_argument("-r", "--root", type=str, default=os.getcwd(),
                         help="root directory for node list")
-    parser.add_argument("-n", "--node", type=str,
-                        help="node to test if not all nodes")
-    parser.add_argument("-d", "--skip_deps", action='store_false', dest='check_deps',
-                        default=True, help="avoid checking dependencies")
-    parser.add_argument("-s", "--skip_syntax", action='store_false', dest='check_syntax',
-                        default=True, help="avoid checking syntax")
 
     return parser.parse_args()
+
+# define some colors and formatting
+bgcolor = "#bbbbbb"      # light gray
+node_default = "#000000" # black
+edge_default = "#009900" # medium green
+missing_dep = {'bg': "#aa0000",  # deep red
+               'fontcolor' : "#ffffff"} # white
+
+header = 'digraph necx {{\n bgcolor="{0}" node [ color="{1}" ] edge [ color="{2}" ] \n\n'.format(bgcolor,node_default,edge_default)
 
 
 if __name__ == "__main__":
@@ -97,21 +100,17 @@ if __name__ == "__main__":
 
     valid_uuid_set, invalid_uuid_set = find_all_nodes_with_valid_uuid(args.root)
 
-    print("digraph necx {")
-    print('bgcolor="#bbbbbb"')
-    print('node [ color="#000000" ]')
-    print('edge [ color="#009900" ]')
-    
-
     nodelist = ""
     edgelist = ""
     for node in valid_uuid_set:
         children = node_tools.get_metadata(os.path.join(args.root,node))['prerequisites']
         for child in children:
             if child not in valid_uuid_set:
-                nodelist += '"{0}" [ color="#aa0000" style=filled fontcolor="#ffffff" ]\n'.format(child)
+                nodelist += '"{0}" [ color="{1}" style=filled fontcolor="{2}" ]\n'.format(child,missing_dep['bg'],missing_dep['fontcolor'])
             edgelist += '"{0}" -> "{1}" ;\n'.format(child,node)
-    print(nodelist,edgelist,"}")
+
+            
+    print(header,nodelist,"\n",edgelist,"}")
     
             
 

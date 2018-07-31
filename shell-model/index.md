@@ -11,6 +11,7 @@ references:
 abet_outcomes: None
 assessments: 
   - construct-shell-model
+  - how-many-protons
 ...
 
 # Overview

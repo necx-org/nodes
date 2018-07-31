@@ -1,7 +1,6 @@
 ---
 uuid: burnup-units
 layout: node
-permalink: /nodes/burnup-units/
 title: Units for nuclear fuel burnup
 prerequisites:
   - define-burnup

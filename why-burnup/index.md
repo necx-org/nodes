@@ -35,7 +35,7 @@ most strongly on the neutron fluence that the fuel has experienced.
 
 # Relationship between burnup and time
 
-![Figure 1](../img/fuel_response_v_time.svg){:height="400px" }
+![Figure 1](../img/fuel_response_v_time.svg){:height="400px" float="right"}
 
 Figure 1 shows a simple power history for a piece
 of nuclear fuel as a function of time.  There are three different power levels

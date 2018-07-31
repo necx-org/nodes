@@ -1,7 +1,6 @@
 ---
 uuid: define-burnup
 layout: node
-permalink: /nodes/define-burnup/
 title: Define nuclear fuel burnup
 prerequisites:
   - specific-thermal-power

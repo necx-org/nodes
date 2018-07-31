@@ -1,10 +1,9 @@
 ---
-uid: two-batch-core
 layout: node
-permalink: /nodes/two-batch-core
+uuid: two-batch-core
 title: Multi-batch core loading - the two-batch core
 prerequisites:
-  - reactivity
+  - define-reactivity
   - define-burnup
 learning_objectives:
   - Calculate the reactivity swing for single-batch versus multi-batch cores

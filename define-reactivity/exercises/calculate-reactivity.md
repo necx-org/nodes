@@ -1,6 +1,6 @@
 ---
-uuid: calculate-reactivity
 layout: exercise
+uuid: calculate-reactivity
 title: Basic reactivity calculation
 type: ShortAnswer
 text: 'What is the reactivity when:

@@ -21,7 +21,7 @@ Typically in the context of reactor operations, we refer to reactivity as a mean
 
 ## Reactivity in an infinite reactor
 
-For an infinitely large reactor (no leakage), the reactivity is defined in terms of the infinite multiplication factor ($$k_\infty$$ as:
+For an infinitely large reactor (no leakage), the reactivity is defined in terms of the infinite multiplication factor ($$k_\infty$$) as:
 
 $$
 \rho = \frac{k_\infty - 1}{k_\infty}

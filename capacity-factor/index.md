@@ -10,7 +10,7 @@ references:
   - refs.bib
 abet_outcomes: [a]
 assessments:
-  - capacity-factor-calulation
+  - capacity-factor-calculation
   - capacity-vs-availability
 ...
 

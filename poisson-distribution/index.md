@@ -19,7 +19,7 @@ assessments:
 A radioactive isotope decays with a unique, characteristic time. This is conceptualzied by a stochastic process. That is, the exact time any particular atom decays cannon be known. Therefore, a probablilty distribution is used to describe the behavior of radioactive decay.
 
 ## Poisson distribution
-The statistical distribution applied to describe decay is the poisson distribution. If the average number of decays in a period of time is defined as 
+The statistical distribution applied to describe decay is the Poisson distribution. If the average number of decays in a period of time is defined as 
 
 $$\mu \equiv \lambda \Delta t$$
 

@@ -5,7 +5,10 @@ title: Reactivity
 prerequisites:
   - define-multiplication-factor
 learning_objectives:
-  - TODO
+  - Define the concept of reactivity as it pertains to the change in neutron multiplication
+  - Calculate the reactivity value for a given change in multiplication factor
+  - Describe and understand the units used to convey reactivity
+  - Relate the units of reactivity to the delayed neutron fraction $$\beta$$
 references:
   - TODO
 abet_outcomes: [TODO]

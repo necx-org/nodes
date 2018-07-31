@@ -1,7 +1,6 @@
 ---
 layout: node
 uuid: define-reactivity
-permalink: /nodes/define-reactivity/
 title: Reactivity
 prerequisites:
   - define-multiplication-factor
@@ -10,7 +9,7 @@ learning_objectives:
 references:
   - TODO
 abet_outcomes: [TODO]
-assessments:
+assessments: 
   - calculate-reactivity
 ---
 

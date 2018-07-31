@@ -25,9 +25,11 @@ This is a tool to scan the full curriculum exchange and generate an input file
 for the Graphvis DOT tool, that can then be used to generate a network graph
 of the exchange.
 
+To generate an SVG graph called `necx.svg`:
+
 ```
 %> python bin/gen_dot_file.py -r content > necx.dot
 
-%> dot -Tpng necx.dot
+%> dot -Tsvg necx.dot
 ```
 
